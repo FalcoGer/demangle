@@ -16,3 +16,5 @@ const int& = int const&
 const int* const = int const* const
 std::string = std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >
 ```
+
+When compiling with msvc, requires to link against `Dbghelp.lib`. `/link Dbghelp.lib` or use your IDE.
