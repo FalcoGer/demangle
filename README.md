@@ -1,6 +1,8 @@
 ## Demangle
 
 The demangle library allows you to get the name of a type in c++ as a string.
+Support for clang, gcc and msvc. Other compilers return the mangled name from `typeid` as a fallback.
+
 See main.cpp for an example.
 
 Possible output (depending on compiler and standard library):
